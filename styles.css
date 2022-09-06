@@ -182,7 +182,10 @@
     
 }
 .section-title {
-    margin-top: 110px;
+    margin-top: 105px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .section-title h1::after{
     content: '';
@@ -213,10 +216,14 @@
     margin-top: 40px;
 }
 .cards-top img{
-    width: 330px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .cards-bot img{
-    width: 330px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .card1 img{
     transition: .5s;
@@ -378,6 +385,14 @@
 
 .container_services{
     margin-top: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.tile_services{
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .container_services h5{
     display: flex;
